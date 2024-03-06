@@ -1,0 +1,15 @@
+.Add-Coupons{
+    font-size: 20px;
+}
+.row{
+    margin-top: 20px;
+}
+.Coupons-1{
+    margin-top: 20px;
+}
+.button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

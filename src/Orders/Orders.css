@@ -1,0 +1,20 @@
+.Orders-Container{
+    font-family: "Arial, sans-serif";
+    margin: 10px;
+}
+.Orders-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0 20px;
+}
+
+.table-body{
+  font-size: 18px;
+}

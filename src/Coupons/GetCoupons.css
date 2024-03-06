@@ -1,0 +1,79 @@
+.Coupons-container {
+    font-family: "Arial, sans-serif";
+  }
+  .Coupons-header-text {
+    color: #4f3267;
+    font-size: 35px;
+    text-align: center;
+  }
+  .Coupons-header .Coupons-header-button {
+    background-color: #f6f3f9;
+    color: #4f3267;
+    border: 2px solid #4f3267;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px;
+    cursor: pointer;
+  }
+  .Coupons-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 20px;
+  }
+  .Coupons-list .card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    width: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Coupons-list .card-body {
+    padding: 20px;
+  }
+  
+  .Coupons-list .card-title {
+    color: #4f3267;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .Coupons-list .card-text {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .code-button{
+border:2px solid #4f3267;
+background: #f6f3f9;
+padding: 8px 12px;
+color: #4f3267;
+border-radius: 5px;
+margin: 10px;
+font-weight: 600;
+  }
+  .Coupons-list-button {
+    background-color: #ffc107;
+    color: #4f3267;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Coupons-list-button:hover {
+    background-color: #ff9800;
+  }
+  
+  .Coupons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }

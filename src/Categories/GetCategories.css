@@ -1,0 +1,126 @@
+.category-container {
+  font-family: "Arial, sans-serif";
+  margin:0;
+  padding: 0;
+}
+.category-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+.category-header .category-header-button {
+  background-color: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px;
+  cursor: pointer;
+}
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0 20px;
+}
+.category-list {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping to arrange cards in a row */
+}
+.category-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.category-item .image-container {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+}
+
+
+.category-list li {
+  width: calc(24% - 10px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-list li img {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+}
+.category-item-details{
+  margin:10px;
+}
+.category-item-details .category-icons-container {
+  margin-top: 30px;
+}
+.category-item-details .category-icons-container .icon-button {
+border: none;
+font-size: 25px;
+color: #757575;
+background-color: #fff;
+padding: 5px;
+margin-right: 5px;
+
+}
+
+.category-list li h2 {
+  font-size: 23px;
+  padding: 7px;
+  margin: 0;
+  text-align: center;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 30px; /* Adjust the top position based on your design */
+  right: 0;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-item {
+  padding: 5px;
+  cursor: pointer;
+  background-color: #fae8e8;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* To remove the border-bottom from the last item in the dropdown menu */
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 767px) {
+  .category-list li {
+    width: calc(
+      50% - 20px
+    ); /* Adjust width for smaller screens to fit two cards in a row */
+  }
+}
+
+@media (max-width: 480px) {
+  .category-list li {
+    width: 100%; /* Adjust width for smaller screens to make cards stack vertically */
+    margin-right: 0;
+  }
+}
